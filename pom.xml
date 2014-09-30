@@ -1652,7 +1652,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-codjo-plugin</artifactId>
-                    <version>1.51</version>
+                    <version>1.52-SNAPSHOT</version>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.maven.scm</groupId>
