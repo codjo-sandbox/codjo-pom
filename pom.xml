@@ -1918,12 +1918,12 @@
     <!-- <pluginRepositories></pluginRepositories>-->
     <distributionManagement>
         <repository>
-            <id>scp-agf-repository</id>
-            <url>scp://ad-binarc/SAN/DEV/SOFT_GEN3/SMB/DAT1/partage/maven/m2/inhouse</url>
+            <id>codjo-distrib-release</id>
+			<url>${codjo-distrib-home}/inhouse</url>
         </repository>
         <snapshotRepository>
-            <id>scp-agf-repository</id>
-            <url>scp://ad-binarc/SAN/DEV/SOFT_GEN3/SMB/DAT1/partage/maven/m2/inhouse-snapshot</url>
+            <id>codjo-distrib-snapshot</id>
+			<url>${codjo-distrib-home}/inhouse-snapshot</url>
         </snapshotRepository>
     </distributionManagement>
     <!--<repositories></repositories>-->
