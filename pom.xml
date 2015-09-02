@@ -1307,17 +1307,17 @@
             <dependency>
                 <groupId>net.codjo.notification</groupId>
                 <artifactId>codjo-notification-common</artifactId>
-                <version>1.7</version>
+                <version>1.8-agi-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.notification</groupId>
                 <artifactId>codjo-notification-gui</artifactId>
-                <version>1.7</version>
+                <version>1.8-agi-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.notification</groupId>
                 <artifactId>codjo-notification-server</artifactId>
-                <version>1.7</version>
+                <version>1.8-agi-SNAPSHOT</version>
             </dependency>
 
             <dependency>
