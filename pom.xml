@@ -1917,6 +1917,19 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>add-specific-resource</id>
+                        <goals>
+                            <goal>add-resource</goal>
+                        </goals>
+                        <configuration>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/src/main/resources-${envClassifier}</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>add-specific-test-source</id>
                         <goals>
                             <goal>add-test-source</goal>
@@ -1925,6 +1938,19 @@
                             <sources>
                                 <source>${basedir}/src/test/java-${envClassifier}</source>
                             </sources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>add-specific-test-resource</id>
+                        <goals>
+                            <goal>add-test-resource</goal>
+                        </goals>
+                        <configuration>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/src/test/resources-${envClassifier}</directory>
+                                </resource>
+                            </resources>
                         </configuration>
                     </execution>
                 </executions>
