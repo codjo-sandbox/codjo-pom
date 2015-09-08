@@ -213,7 +213,7 @@
             <dependency>
                 <groupId>xstream</groupId>
                 <artifactId>xstream</artifactId>
-                <version>1.2</version>
+                <version>${xstreamVersion}</version>
             </dependency>
             <dependency>
                 <groupId>xpp3</groupId>
@@ -1899,6 +1899,37 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>add-specific-source</id>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${basedir}/src/main/java-${envClassifier}</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>add-specific-test-source</id>
+                        <goals>
+                            <goal>add-test-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${basedir}/src/test/java-${envClassifier}</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 
     <!--
@@ -1944,16 +1975,6 @@
             </properties>
         </profile>
         <profile>
-            <id>jdk16</id>
-            <activation>
-                <jdk>1.6</jdk>
-            </activation>
-            <properties>
-                <envClassifier>jdk16</envClassifier>
-                <uispecVersion>2.4-jdk16-toolkit</uispecVersion>
-            </properties>
-        </profile>
-        <profile>
             <id>jdk15</id>
             <activation>
                 <jdk>1.5</jdk>
@@ -1961,6 +1982,29 @@
             <properties>
                 <envClassifier>jdk15</envClassifier>
                 <uispecVersion>2.4-jdk15-toolkit</uispecVersion>
+                <xstreamVersion>1.2</xstreamVersion>
+            </properties>
+        </profile>
+        <profile>
+            <id>jdk16</id>
+            <activation>
+                <jdk>1.6</jdk>
+            </activation>
+            <properties>
+                <envClassifier>jdk16</envClassifier>
+                <uispecVersion>2.4-jdk16-toolkit</uispecVersion>
+                <xstreamVersion>1.2</xstreamVersion>
+            </properties>
+        </profile>
+        <profile>
+            <id>jdk18</id>
+            <activation>
+                <jdk>1.8</jdk>
+            </activation>
+            <properties>
+                <envClassifier>jdk18</envClassifier>
+                <uispecVersion>2.4-jdk16-toolkit</uispecVersion>
+                <xstreamVersion>1.4.8</xstreamVersion>
             </properties>
         </profile>
         <profile>
