@@ -2029,7 +2029,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk18</envClassifier>
-                <uispecVersion>2.4-jdk16-toolkit</uispecVersion>
+                <uispecVersion>2.5-RC1-jdk8</uispecVersion>
                 <xstreamVersion>1.4.8</xstreamVersion>
             </properties>
         </profile>
