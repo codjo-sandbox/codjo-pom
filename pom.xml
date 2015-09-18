@@ -1526,7 +1526,7 @@
             <dependency>
                 <groupId>net.codjo.jconnect</groupId>
                 <artifactId>codjo-jconnect</artifactId>
-                <version>1.5</version>
+                <version>1.6-agi-SNAPSHOT</version>
             </dependency>
 
             <!-- codjo-database -->
