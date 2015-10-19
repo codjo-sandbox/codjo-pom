@@ -448,7 +448,7 @@
                 <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
                 <version>2.2.8</version>
-                <classifier>${envClassifier}</classifier>
+                <classifier>${hsqldbEnvClassifier}</classifier>
             </dependency>
             <dependency>
                 <groupId>com.mockrunner</groupId>
@@ -484,7 +484,7 @@
             <dependency>
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc</artifactId>
-                <version>11.2.0.3.0-${envClassifier}</version>
+                <version>11.2.0.3.0-${oracleEnvClassifier}</version>
             </dependency>
             <dependency>
                 <groupId>com.intellij</groupId>
@@ -2009,6 +2009,8 @@
                 <envClassifier>jdk15</envClassifier>
                 <uispecVersion>2.4-jdk15-toolkit</uispecVersion>
                 <xstreamVersion>1.2</xstreamVersion>
+                <oracleEnvClassifier>${envClassifier}</oracleEnvClassifier>
+                <hsqldbEnvClassifier>${envClassifier}</hsqldbEnvClassifier>
             </properties>
         </profile>
         <profile>
@@ -2020,6 +2022,8 @@
                 <envClassifier>jdk16</envClassifier>
                 <uispecVersion>2.4-jdk16-toolkit</uispecVersion>
                 <xstreamVersion>1.2</xstreamVersion>
+                <oracleEnvClassifier>${envClassifier}</oracleEnvClassifier>
+                <hsqldbEnvClassifier>${envClassifier}</hsqldbEnvClassifier>
             </properties>
         </profile>
         <profile>
@@ -2031,7 +2035,26 @@
                 <envClassifier>jdk18</envClassifier>
                 <uispecVersion>2.5-RC1-jdk8</uispecVersion>
                 <xstreamVersion>1.4.8</xstreamVersion>
+                <oracleEnvClassifier>jdk15</oracleEnvClassifier>
+                <hsqldbEnvClassifier>jdk16</hsqldbEnvClassifier>
             </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <source>1.5</source>
+                            <target>1.8</target>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <configuration>
+                            <classifier>${envClassifier}</classifier>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
         </profile>
         <profile>
             <id>activate-pom-agif</id>
