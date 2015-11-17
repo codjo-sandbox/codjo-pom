@@ -2025,6 +2025,7 @@
                 <xstreamVersion>1.2</xstreamVersion>
                 <oracleEnvClassifier>${envClassifier}</oracleEnvClassifier>
                 <hsqldbEnvClassifier>${envClassifier}</hsqldbEnvClassifier>
+                <ideauidesignerVersion>1.0-alpha-2</ideauidesignerVersion>
             </properties>
         </profile>
         <profile>
