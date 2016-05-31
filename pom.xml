@@ -9,7 +9,7 @@
 
     <groupId>net.codjo.pom</groupId>
     <artifactId>codjo-pom</artifactId>
-    <version>3.0-RC1</version>
+    <version>3.0-RC2-SNAPSHOT</version>
     <dependencyManagement>
         <dependencies>
             <!-- ******* Externe -->
@@ -268,12 +268,12 @@
             <dependency>
                 <groupId>com.jacob</groupId>
                 <artifactId>jacob</artifactId>
-                <version>1.15-M4</version>
+                <version>1.18</version>
             </dependency>
             <dependency>
                 <groupId>com.jacob</groupId>
                 <artifactId>jacob-windows-x86</artifactId>
-                <version>1.15-M4</version>
+                <version>1.18</version>
             </dependency>
             <dependency>
                 <groupId>jcom</groupId>
@@ -418,7 +418,7 @@
             <dependency>
                 <groupId>uispec4j</groupId>
                 <artifactId>uispec4j</artifactId>
-                <version>2.5-SNAPSHOT-jdk8</version>
+                <version>${uispecVersion}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>asm</groupId>
@@ -1947,7 +1947,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk16</envClassifier>
-                <uispecVersion>2.5-SNAPSHOT-jdk8</uispecVersion>
+                <uispecVersion>2.5-RC1</uispecVersion>
                 <xstreamVersion>1.4.8</xstreamVersion>
             </properties>
         </profile>
