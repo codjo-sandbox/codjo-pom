@@ -10,7 +10,7 @@
     <parent>
         <groupId>net.codjo.pom</groupId>
         <artifactId>codjo-pom-agif</artifactId>
-        <version>3.0-RC2</version>
+        <version>3.0-RC3-SNAPSHOT</version>
     </parent>
     <artifactId>codjo-pom-library</artifactId>
 
