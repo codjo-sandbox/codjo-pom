@@ -9,7 +9,7 @@
 
     <groupId>net.codjo.pom</groupId>
     <artifactId>codjo-pom</artifactId>
-    <version>3.0-RC3</version>
+    <version>3.0-RC4-SNAPSHOT</version>
     <dependencyManagement>
         <dependencies>
             <!-- ******* Externe -->
