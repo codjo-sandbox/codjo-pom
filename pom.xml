@@ -1900,9 +1900,9 @@
     <!-- <issueManagement> </issueManagement> -->
     <!--<ciManagement> </ciManagement>-->
     <scm>
-        <connection>scm:git:https://github.com/codjo/codjo-pom.git</connection>
-        <developerConnection>scm:git:https://github.com/codjo/codjo-pom.git</developerConnection>
-        <url>https://github.com/codjo/codjo-pom</url>
+        <connection>scm:git:https://github.com/codjo-sandbox/codjo-pom.git</connection>
+        <developerConnection>scm:git:https://github.com/codjo-sandbox/codjo-pom.git</developerConnection>
+        <url>https://github.com/codjo-sandbox/codjo-pom</url>
     </scm>
     <!--<mailingLists></mailingLists>-->
 
