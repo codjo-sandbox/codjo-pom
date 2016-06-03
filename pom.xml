@@ -1942,7 +1942,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk16</envClassifier>
-                <uispecVersion>2.5-RC1</uispecVersion>
+                <uispecVersion>2.5-SNAPSHOT-jdk8</uispecVersion>
                 <xstreamVersion>1.4.8</xstreamVersion>
             </properties>
         </profile>
