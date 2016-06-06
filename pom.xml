@@ -924,7 +924,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>2.0-RC1</version>
+                <version>2.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -1524,59 +1524,59 @@
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
                 <classifier>tests</classifier>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb-api</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql-api</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle-api</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase-api</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <!-- TODO : partie à supprimer a la fin du decoupage de codjo-database -->
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-common</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb</artifactId>
-                <version>3.0-RC2</version>
+                <version>3.0-RC3</version>
             </dependency>
 
             <dependency>
@@ -1877,7 +1877,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>2.0-RC2</version>
+                    <version>2.0-RC3</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
