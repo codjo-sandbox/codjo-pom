@@ -251,7 +251,6 @@
                 <artifactId>ads-tools</artifactId>
                 <version>20101209</version>
             </dependency>
-
             <!--
             | Solution bidouillage windows
             -->
@@ -264,7 +263,17 @@
                 <groupId>net.java.dev.jdic</groupId>
                 <artifactId>jdic-tray-windows-x86</artifactId>
                 <version>1.0-20060613</version>
-            </dependency>            
+            </dependency>
+            <dependency>
+                 <groupId>com.jacob</groupId>
+                 <artifactId>jacob</artifactId>
+                 <version>1.15-M4</version>
+           </dependency>
+           <dependency>
+                 <groupId>com.jacob</groupId>
+                 <artifactId>jacob-windows-x86</artifactId>
+                 <version>1.15-M4</version>
+           </dependency>
             <dependency>
                 <groupId>jcom</groupId>
                 <artifactId>jcom</artifactId>
