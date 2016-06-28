@@ -1973,6 +1973,7 @@
             <properties>
                 <envClassifier>jdk15</envClassifier>
                 <uispecVersion>2.4-jdk15-toolkit</uispecVersion>
+                <xstreamVersion>1.4.8</xstreamVersion>
             </properties>
         </profile>
         <profile>
